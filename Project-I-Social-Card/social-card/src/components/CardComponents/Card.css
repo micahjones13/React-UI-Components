@@ -1,1 +1,19 @@
 /* All styles for your Card Components live here */
+ .banner-container img {
+    width: 99%;
+}
+.card-container{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.card-content p {
+   
+    margin-top: -10px;
+}
+.opacity-p{
+    opacity: .5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

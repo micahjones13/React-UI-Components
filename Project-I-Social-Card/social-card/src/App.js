@@ -1,9 +1,17 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+// import './components/CardComponents/CardBanner.js';
 
+
+//place <ComponentName /> inside of the app return <div>
 const App = () => {
   return (
     <div>
+    <div className = 'header-card-container'>
+    <HeaderContainer />
+    <CardContainer />
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -17,7 +25,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      </div>
     </div>
+    
   );
 };
 
