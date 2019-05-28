@@ -29,6 +29,7 @@ const equals = '=';
 //button class names for props
 const buttonStyle = 'btn';
 const action = 'action-btn';
+const action2 = 'clear-text';
 const opBtn = 'op-btn';
 //display class name
 const displayClass = 'calc-display';
@@ -41,7 +42,7 @@ const displayClass = 'calc-display';
       <CalculatorDisplay displayClass = {displayClass} text = {zero} />
       
         <div className ='row-1'>
-          <ActionButton action = {action} text = {clear} />
+          <ActionButton  action = {action2} text = {clear} />
           <OperationButton opBtn = {opBtn} text = {divide} />
         </div>
           <div className = 'row-2'>

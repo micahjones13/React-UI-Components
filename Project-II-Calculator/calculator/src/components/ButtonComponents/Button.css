@@ -24,3 +24,13 @@
     color: white;
     
 }
+.clear-text{
+   
+    background: white;
+    height: 100px;        
+    width: 300px;
+    font-size: 2rem;
+    border: 1px solid grey;
+    
+  
+}
