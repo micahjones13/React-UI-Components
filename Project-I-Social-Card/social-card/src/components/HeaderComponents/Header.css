@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+.header-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.thumbnail {
+    background: red;
+    border-radius: 100px;
+    height: 60px;
+}
+
+.img-title-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.title {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.title p {
+    padding-left: 10px;
+    opacity: .5;
+}

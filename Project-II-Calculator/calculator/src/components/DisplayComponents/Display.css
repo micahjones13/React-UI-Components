@@ -1,0 +1,9 @@
+.calc-display{
+    background: rgb(65, 63, 63);
+    width: 398px;
+    height: 100px;
+    color: white;
+    text-align: right;
+    border: 1px solid gray;
+    font-size: 5rem;
+}
